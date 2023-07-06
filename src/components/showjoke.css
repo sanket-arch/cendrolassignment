@@ -1,0 +1,52 @@
+#jokebox {
+  background-color: #a2c1a6;
+  color: #fff;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  width: 60%;
+  height: 30%;
+  padding: 1.2%;
+  border-radius: 25px;
+}
+#upperpart {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  text-align: center;
+  padding: 1%;
+}
+#upperpart h2 {
+  font-size: 2em;
+  text-transform: capitalize;
+}
+#upperpart button {
+  font-size: 1.1em;
+  border-radius: 10px;
+  border: 1px solid #000;
+  text-transform: capitalize;
+}
+#body {
+  height: 70%;
+  margin: auto;
+  margin-top: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#body p {
+  padding: 3%;
+  font-size: 1.4em;
+}
+#body button {
+  padding: 2%;
+  width: 70%;
+  margin: auto;
+  background-color: #2563eb;
+  color: #000;
+  font-weight: 800;
+  border: 0;
+  border-radius: 25px;
+  text-transform: capitalize;
+  cursor: pointer;
+}

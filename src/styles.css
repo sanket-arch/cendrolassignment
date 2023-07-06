@@ -1,0 +1,24 @@
+* {
+  color: #000;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #3f6fbd;
+  padding: 3%;
+  position: relative;
+}
+#cateogries {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2%;
+  row-gap: 3%;
+  text-transform: capitalize;
+}
